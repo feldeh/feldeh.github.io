@@ -44,9 +44,19 @@ main {
 }
 
 main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
+	/* font-family: 'Reem Kufi', sans-serif; */
+	font-family: 'teslaregular', sans-serif;
 	font-size: 3.75em;
 	font-weight: 600;
+}
+
+@font-face {
+    font-family: 'teslaregular';
+    src: url('../fonts/tesla-webfont.woff2') format('woff2'),
+         url('../fonts/tesla-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 main > .tagline {
