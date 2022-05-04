@@ -44,8 +44,7 @@ main {
 }
 
 main > .intro {
-	/* font-family: 'Reem Kufi', sans-serif; */
-	font-family: 'teslaregular', sans-serif;
+	font-family: 'teslaregular', 'Reem Kufi', sans-serif;
 	font-size: 3.75em;
 	font-weight: 600;
 }
